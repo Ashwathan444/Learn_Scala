@@ -10,7 +10,7 @@ object Sequential extends App {
     if(n==1){
       Thread.sleep(1000)
     }
-    println(n)  
+    println(n)
     n + 1
   }
 
