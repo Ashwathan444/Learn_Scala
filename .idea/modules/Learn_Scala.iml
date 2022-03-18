@@ -11,6 +11,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: com.github.virtuald:curvesapi:1.04:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.commons:commons-collections4:4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.poi:poi-ooxml-schemas:3.17:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.poi:poi-ooxml:3.17:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.poi:poi:3.17:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.xmlbeans:xmlbeans:2.6.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: stax:stax-api:1.0.1:jar" level="project" />
   </component>
 </module>
