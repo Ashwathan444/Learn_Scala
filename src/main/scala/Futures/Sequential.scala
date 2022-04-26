@@ -24,7 +24,7 @@ object Sequential extends App {
   } yield List(f1, f2, f3, f4, f5)
   dep_f.map(z => println(s"Done. ${z.size} sample actions run"))
 
-  //Sequential futures dependant on each other
+  //Sequential futures independant on each other
   val indep_f = for {
 
     f6 <- Future.sequence(List(sample_action(6), sample_action(7), sample_action(8)))

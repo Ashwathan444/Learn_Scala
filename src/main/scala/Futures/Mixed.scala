@@ -22,7 +22,7 @@ object Mixed extends App{
     f5 <- sample_action(f4.head)
   } yield (f2.size + f4.size)
 
-  f.map(z => println(s"Done. $z sample_actions run in parallel"))
+  f.foreach(z => println(s"Done. $z sample_actions run in parallel"))
 
   Thread.sleep(10000)
   

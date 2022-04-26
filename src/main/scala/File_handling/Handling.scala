@@ -1,6 +1,6 @@
 package File_handling
 
-import java.io.File
+import java.io._
 import org.apache.poi.ss.usermodel.{ DataFormatter, WorkbookFactory, Row }
 import scala.collection.mutable.ListBuffer
 object Handling extends App{
@@ -70,6 +70,7 @@ object Handling extends App{
     println()
   }
   println("Total Valid entries : " + valid_count)
+  
 
   val totalTime = deltaTime(startTime)
   println("Total time : " + totalTime)

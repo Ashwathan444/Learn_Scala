@@ -28,6 +28,14 @@ object Future_Exceptions extends App {
     r3 <- f3
   } yield (r1 + r2 + r3)
 
+  val a1= Future {
+    1
+  }
+  println(a1)
+  val a2 = Future(10)
+  println(a2)
+
+
   result.onComplete {
     case Success(x) => {
       // the code won't come here
